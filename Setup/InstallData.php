@@ -8,7 +8,6 @@
 
 namespace Verimod\TaxOffice\Setup;
 
-use Magento\Customer\Model\Address;
 use Magento\Customer\Setup\CustomerSetupFactory;
 use Magento\Framework\Setup\InstallDataInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
@@ -58,7 +57,7 @@ class InstallData implements InstallDataInterface
 
         // Create tax_office_number attribute for customer address
         $customerSetup->addAttribute(
-            Address::ENTITY,
+            'customer_address',
             'tax_office_number',
             [
                 'type' => 'varchar',
