@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Customer:etc/customer_attributes.xsd">
+    <attribute code="tax_office_number" type="text">
+        <label>Vergi Müşterisisi Kimlik Numarası</label>
+        <input type="text">
+            <attribute_code>tax_office_number</attribute_code>
+        </input>
+        <properties>
+            <is_visible>1</is_visible>
+            <is_required>0</is_required>
+            <is_system>0</is_system>
+            <input_filter/>
+            <multiline_count>0</multiline_count>
+            <validate_rules>
+                <rule name="max_text_length" xsi:type="xs:int">255</rule>
+                <rule name="min_text_length" xsi:type="xs:int">1</rule>
+            </validate_rules>
+            <is_used_in_grid>0</is_used_in_grid>
+            <is_used_in_grid_filter>0</is_used_in_grid_filter>
+            <is_filterable_in_grid>0</is_filterable_in_grid>
+            <is_searchable_in_grid>0</is_searchable_in_grid>
+            <frontend_class/>
+            <used_in_forms>
+                <form>customer_account_create</form>
+                <form>customer_account_edit</form>
+                <form>customer_address_edit</form>
+                <form>customer_register_address</form>
+                <form>adminhtml_customer_address</form>
+                <form>checkout_billing_address</form>
+            </used_in_forms>
+            <is_visible_in_advanced_search>0</is_visible_in_advanced_search>
+            <position>333</position>
+            <adminhtml_only>0</adminhtml_only>
+            <sort_order>100</sort_order>
+        </properties>
+    </attribute>
+</config>

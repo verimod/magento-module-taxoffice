@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/config.xsd">
+    <default>
+        <verimod_taxoffice>
+            <general>
+                <enabled>1</enabled>
+                <tax_office_attribute_label>Vergi Müşterisisi Kimlik Numarası</tax_office_attribute_label>
+                <show_in_billing_address>1</show_in_billing_address>
+                <show_in_shipping_address>0</show_in_shipping_address>
+                <is_required>0</is_required>
+            </general>
+        </verimod_taxoffice>
+    </default>
+</config>
