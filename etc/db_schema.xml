@@ -1,6 +1,2 @@
-<?php
-/**
- * Verimod Tax Office Module - Do not use db_schema.xml
- * This file is deprecated for this module.
- * Use InstallData.php instead.
- */
+<?xml version="1.0"?>
+<!-- This file is intentionally empty and not used -->
